@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=["Get"])
 def root():
-  return "Welcom to the server"
+  return "Welcom to the server Pranay"
 
 @app.route("/version", methods=["Get"])
 def version():
